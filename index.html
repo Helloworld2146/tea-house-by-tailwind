@@ -31,8 +31,8 @@
     </style>
 </head>
 
-<body class="md:w-5/6 lg:w-5/6 mx-auto  manrope-font">
-    <header class="md:flex lg:flex justify-between px-4 py-16">
+<body class="manrope-font">
+    <header class="md:flex lg:flex justify-between md:w-5/6 lg:w-5/6 mx-auto px-4 py-16">
         <!-- text content -->
         <div>
             <h1 class="font-extrabold text-5xl md:text-6xl lg:text-7xl">It's good <br>tea time at The <br> Tea House
@@ -60,7 +60,7 @@
             </div>
         </div>
     </header>
-    <main class="">
+    <main class="md:w-5/6 lg:w-5/6 mx-auto">
         <!-- products featured section -->
         <section class="my-2 lg:py-24 ">
             <!-- title -->
@@ -244,7 +244,7 @@
             </div>
         </section>
     </main>
-    <footer class="my-32">
+    <footer class="mt-32 bg-gradient-to-r from-red-50 to-red-100 p-5">
         <div class="lg:flex lg:justify-between my-7 mx-5">
             <div class="mb-5">
                 <img class="mx-auto" src="images/cup.png" alt="">
@@ -255,27 +255,31 @@
                     Started</button>
             </div>
         </div>
-        <div class="grid lg:grid-cols-4 my-4">
+        <div class="grid lg:grid-cols-4 my-4 items-center">
             <div class="grid gap-y-1 mx-auto">
                 <h2 class="font-semibold text-xl mb-4">Quick Links</h2>
                 <div class="grid agap-y-1">
-                    <a class="text-gray-500" href="">Home</a> <br>
-                    <a class="text-gray-500" href="">About Us</a> <br>
-                    <a class="text-gray-500" href="">Insurance</a> <br>
-                    <a class="text-gray-500" href="">Privacy Policy</a>
-                </div>
+                    <ul>
+                        <li><a class="text-gray-500" href="">Home</a></li>
+                        <li><a class="text-gray-500" href="">About Us</a></li>
+                        <li><a class="text-gray-500" href="">Insurance</a></li>
+                        <li><a class="text-gray-500" href="">Privacy Policy</a></li>
+                    </ul> <br>
+                   </div>
             </div>
             <div class="grid gap-y-1 mx-auto my-5">
                 <h2 class="font-semibold text-xl mb-4">Our Service</h2>
-                <a class="text-gray-500" href="">Life Insurance</a> <br>
-                <a class="text-gray-500" href="">Health Insurance</a> <br>
-                <a class="text-gray-500" href="">House Insurance</a> <br>
-                <a class="text-gray-500" href="">Privacy Policy</a>
+                <ul>
+                    <li><a class="text-gray-500" href="">Life Insurance</a></li>
+                    <li><a class="text-gray-500" href="">Health Insurance</a></li>
+                    <li><a class="text-gray-500" href="">House Insurance</a></li>
+                    <li><a class="text-gray-500" href="">Privacy Policy</a></li>
+                </ul>
             </div>
             <div class="mb-4 mx-auto">
                 <h2 class="font-semibold text-xl mb-4">Help</h2>
                 <ul>
-                    <li class="mb-5"><a class="text-gray-500" href="">FAQs</a></li>
+                    <li><a class="text-gray-500" href="">FAQs</a></li>
                     <li><a class="text-gray-500" href="">Contact Us</a></li>
                 </ul>
             </div>
@@ -283,7 +287,8 @@
                 <h2 class="font-semibold text-2xl mb-7">Subscribe to our <br> newsletter</h2>
                 <div class="flex justify-between border-b-2 border-gray-400">
                     <input type="mail" placeholder="Email address">
-                    <i class="fa-solid fa-angle-right p-2 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-full text-white my-3"></i>
+                    <i
+                        class="fa-solid fa-angle-right p-2 bg-gradient-to-r from-[#FF8938] to-[#FF0000] rounded-full text-white my-3"></i>
 
                 </div>
                 <div class="my-5 flex gap-2 text-gray-500">
